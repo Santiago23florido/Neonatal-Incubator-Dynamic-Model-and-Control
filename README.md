@@ -12,14 +12,24 @@ The publication link and DOI will be added here once the final version is releas
 
 ## Project Structure
 
-INCUBATOR_TEMP/
-│
-├─ analog_control/ # Continuous-time PID controller design and evaluation
-├─ digital_control/ # Incremental RST discrete-time controller implementation
-├─ identification/ # Full-order thermal model and first-order approximation scripts
-├─ incubator_sim/ # Simulink models for system-level and closed-loop simulation
-├─ Narma_L2_control/ # Neural-based NARMA-L2 control exploration (optional)
-└─ slprj/ # Auto-generated artifacts (excluded via .gitignore)
+# INCUBATOR_TEMP: Temperature Control for Thermal Incubator
+
+This project contains the code and models for the design, identification, and implementation of temperature control systems for a thermal incubator.
+
+---
+
+## Project Structure
+
+The repository is organized into the following main directories:
+
+| Directory | Description |
+| :--- | :--- |
+| `analog_control/` | Design and evaluation of a **continuous-time PID controller**. |
+| `digital_control/` | Implementation of an **incremental RST discrete-time controller**. |
+| `identification/` | Scripts for **thermal model identification**: full-order model and its first-order approximation. |
+| `incubator_sim/` | **Simulink models** for system-level and closed-loop simulation. |
+| `Narma_L2_control/` | Exploration (optional) of **NARMA-L2 neural-based control**. |
+| `slprj/` | **Auto-generated artifacts** from Simulink (this directory is excluded via `.gitignore`). |
 
 
 ---
