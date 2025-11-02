@@ -1,0 +1,38 @@
+# ============================================
+# MATLAB & Simulink Project .gitignore
+# ============================================
+
+# Simulink build artifacts
+slprj/
+simulink_cache/
+*.slxc
+
+# MATLAB autosaves and backup files
+*.asv
+*.m~
+*.mat~
+*.autosave
+*.backup
+
+# Generated code / auto-build folders
+codegen/
+s-function/
+sfprj/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Ignore binary simulation outputs (if any)
+*.mdl.r*
+*.slx.r*
+
+# Allow model and data files (important)
+!.slx
+!.mdl
+!.mat
