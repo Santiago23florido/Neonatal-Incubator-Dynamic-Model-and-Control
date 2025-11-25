@@ -64,7 +64,7 @@ kplex = 0.189;
 epsilon_w = 0.9;  % Emisividad del material de la pared -> Ajustar
 mm = 2.5;       % Masa del colchón (kg) -> Ajustar según datos reales
 cpm = 1500;     % Capacidad calorífica específica (J/kg·K) -> Ajustar
-cpw=4e7;
+cpw=1047;
 Ave=0.0628;
 hien = hscv; 
 A_tot=1.5112;% Parámetros físicos
@@ -82,9 +82,3 @@ A_hum=L_hum*L_hum;
 R_hum=461.5;   % Constante del gas para el vapor de agua (J/kg·K)
 V_aire=maire/rho_a;
 P_atm = 101325;    % Presión atmosférica (Pa)
-
-
-
-
-
-
